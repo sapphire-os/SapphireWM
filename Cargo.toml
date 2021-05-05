@@ -1,0 +1,12 @@
+[package]
+name = "sapphire-wm"
+version = "0.1.0"
+authors = ["notusknot <notusknot@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+x11-dl = "2.18.3"
+
+[[bin]]
+name = "sapphirewm"
+path = "src/sapphirewm.rs"
